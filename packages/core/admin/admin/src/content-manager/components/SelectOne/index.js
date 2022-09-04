@@ -72,7 +72,7 @@ SelectOne.propTypes = {
   components: PropTypes.object,
   isDisabled: PropTypes.bool.isRequired,
   isLoading: PropTypes.bool.isRequired,
-  loadingMessage: PropTypes.string.isRequired,
+  loadingMessage: PropTypes.any.isRequired,
   mainField: PropTypes.shape({
     name: PropTypes.string.isRequired,
     schema: PropTypes.shape({
