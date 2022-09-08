@@ -270,7 +270,7 @@ function Inputs({
       placeholder={placeholder ? { id: placeholder, defaultMessage: placeholder } : null}
       required={fieldSchema.required || false}
       step={inputStep}
-      type={(fieldSchema.customFieldConfig || {}).fieldRendered || inputType}
+      type={inputType}
       // validations={validations}
       value={inputValue}
       withDefaultValue={false}
